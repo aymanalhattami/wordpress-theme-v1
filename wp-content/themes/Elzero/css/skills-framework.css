@@ -1,0 +1,145 @@
+/* project framework */
+@font-face {
+    font-family: cm; /* for more greate font */
+    src: url('../fonts/cmunbi.ttf') format('ttf'),
+         url('../fonts/cmunbi.eot') format('eot'),
+         url('../fonts/cmunbi.woff') format('woff');
+}
+
+@font-face { /* for heading */
+    font-family: os;
+    src: url('../fonts/Oswald-Regular.ttf');
+}
+
+@font-face { /* for paragraph */
+    font-family: sans;
+    src: url('../fonts/SourceSansPro-Black.otf') format('otf');
+}
+
+body{
+    background-color: #eee;
+}
+
+.border-bottom{
+    border: 2px solid #df4545;
+}
+
+.border-left{
+    border-left: 2px solid #df4545;
+}
+
+.no-border-radius{
+    border-radius: 0px;
+}
+
+.no-papdding{
+    padding: 0px;
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.no-margin-btm{
+    margin-bottom: 0px
+}
+
+.cm-font{
+    font-family: cm;
+    letter-spacing: -1px;
+}
+
+.os-font{
+    font-family: os;
+}
+
+.sans-font{
+    font-family: sans;
+    font-size: 15px;
+    color: #666;
+}
+
+.pointer-not-allowed{
+    cursor: not-allowed;
+}
+
+.main-color{
+    /*color: #f15a24 !important;*/
+}
+
+.second-color{
+    /*color: #929497 !important;*/
+}
+
+.black-color{
+    color: #222;
+}
+
+.red-color{
+    color: #df4545;
+}
+
+.gray-color{
+    color: #aaa;
+}
+
+.blue-color{
+    color: #337ab7;
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+.blue-color{
+    /*color: #222f46*/
+}
+
+.white-color{
+    /*color: #fff !important;*/
+}
+
+.blue-background{
+    /*background-color: #222f46 !important;*/
+}
+
+.main-background-light{
+    /*background-color: #fb9b6d !important;*/
+}
+
+.main-background{
+    /*background-color: #f15a24 !important;*/
+}
+
+.white-background{
+    /*background-color: #ffffff;*/
+}
+
+.eee-background{
+    /*background-color: #eee !important;*/
+}
+
+.second-background{
+    /*background-color: #F4645F !important;*/
+}
+
+.control-label{
+    /*text-align: left !important;*/
+}
+
+.btn, .panel, .form-control, .panel-heading, .btn-group-sm>.btn, .btn-sm, .input-group-addon, .alert{
+    /*border-radius: 0px;*/
+}
+
+.panel.panel-primary,
+.panel.panel-primary .panel-heading{
+    /*border-color: #fe892d*/
+}
+
+.shodow{
+    /*box-shadow: 10px 10px 5px #e6e3e3;*/
+}
+
+.aaa-hr{
+    border-top: 2px dashed #aaa;
+}

@@ -1,0 +1,13 @@
+username: aymen
+email: aymen.alyemen@gmail.com 
+password: 123456
+link to access the wordpress for administration: http://localhost/wordpress/wp-login.php  [or] http://localhost/wordpress/wp-admin/
+
+
+###########################################################################################
+1. search for: WP_Query()
+2. WordPress CSS best practice
+3. WordPress JS best practice
+
+###########################################################################################
+ملاحظات للتصميم
